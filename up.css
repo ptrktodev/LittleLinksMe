@@ -40,7 +40,6 @@ body {
     top: 10px;
 }
 
-
 .up img {
     width: 10%;
 }
@@ -73,7 +72,7 @@ body {
 
 @media (max-width: 1000px) {
     .up p {
-        max-width: 90%;
+        min-width: 70%;
     }
 }
 
@@ -81,6 +80,19 @@ body {
     .title-img img {
         display: none;
     }
+}
+
+@media (max-width: 650px) {
+  .title-img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 370px) {
+  .up span {
+    font-size: 2rem;
+    font-weight: 700;
+}
 }
 
 /*---------------*/

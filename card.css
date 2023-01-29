@@ -16,6 +16,10 @@ a {
     gap: 1.2rem;
 }
 
+.cards img {
+    border-radius: 3px;
+}
+
 .card {
     margin: 0 auto;
     width: 400px;
